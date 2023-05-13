@@ -4,7 +4,7 @@ let canvas;
 function centerCanvas() {
   const x = (windowWidth - width) / 2;
   const y = (windowHeight - height) / 2;
-  canvas.position(x, 1250);
+  canvas.position(x, 1280);
 }
 
 function windowResized() {
