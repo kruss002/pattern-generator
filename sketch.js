@@ -3,12 +3,66 @@ let canvas;
 
 function centerCanvas() {
   const x = (windowWidth - width) / 2;
-  const y = (windowHeight - height) / 2;
-  canvas.position(x, 1280);
+  const y = (windowHeight - height) / 2
+  canvas.position(x, 1150);
 }
 
 function windowResized() {
   centerCanvas();
+  
+  var xOffset = (windowWidth - 800) / 2; // Adjust this value to control the centering
+  
+  positionCheckbox(checkbox1, 20 + xOffset, 765);
+  positionCheckbox(checkbox2, 20 + xOffset, 790);
+  positionCheckbox(checkbox3, 20 + xOffset, 815);
+  positionCheckbox(checkbox4, 20 + xOffset, 840);
+  positionCheckbox(checkbox5, 20 + xOffset, 865);
+  positionCheckbox(checkbox6, 20 + xOffset, 890);
+  positionCheckbox(checkbox7, 20 + xOffset, 915);
+  positionCheckbox(checkbox8, 20 + xOffset, 940);
+  positionCheckbox(checkbox9, 20 + xOffset, 965);
+  positionCheckbox(checkbox10, 20 + xOffset, 990);
+  positionCheckbox(checkbox11, 20 + xOffset, 1015);
+  positionCheckbox(checkbox12, 20 + xOffset, 1040);
+  positionCheckbox(checkbox13, 20 + xOffset, 1065);
+  positionCheckbox(checkbox14, 20 + xOffset, 1090);
+  
+  positionCheckbox(checkbox15, 150 + xOffset, 765);
+  positionCheckbox(checkbox16, 150 + xOffset, 790);
+  positionCheckbox(checkbox17, 150 + xOffset, 815);
+  positionCheckbox(checkbox18, 150 + xOffset, 840);
+  positionCheckbox(checkbox19, 150 + xOffset, 865);
+  positionCheckbox(checkbox20, 150 + xOffset, 890); 
+  positionCheckbox(checkbox21, 150 + xOffset, 915);
+  positionCheckbox(checkbox22, 150 + xOffset, 940);
+  positionCheckbox(checkbox23, 150 + xOffset, 965);
+  positionCheckbox(checkbox24, 150 + xOffset, 990);
+  positionCheckbox(checkbox25, 150 + xOffset, 1015);
+  positionCheckbox(checkbox26, 150 + xOffset, 1040);
+  positionCheckbox(checkbox27, 150 + xOffset, 1065);
+  positionCheckbox(checkbox28, 150 + xOffset, 1090);
+  
+  positionCheckbox(checkbox29, 280 + xOffset, 765);
+  positionCheckbox(checkbox30, 280 + xOffset, 790);
+  positionCheckbox(checkbox31, 280 + xOffset, 815);
+  positionCheckbox(checkbox32, 280 + xOffset, 840);
+  positionCheckbox(checkbox33, 280 + xOffset, 865);
+  positionCheckbox(checkbox34, 280 + xOffset, 890);
+  positionCheckbox(checkbox35, 280 + xOffset, 915);
+  positionCheckbox(checkbox36, 280 + xOffset, 940);
+  positionCheckbox(checkbox37, 280 + xOffset, 965);
+  positionCheckbox(checkbox38, 280 + xOffset, 990);
+  positionCheckbox(checkbox39, 280 + xOffset, 1015);
+  positionCheckbox(checkbox40, 280 + xOffset, 1040);
+  
+  
+  positionCheckbox(checkbox41, 530 + xOffset, 765);
+  positionCheckbox(checkbox42, 530 + xOffset, 790);
+  positionCheckbox(checkbox43, 530 + xOffset, 815);
+  positionCheckbox(checkbox44, 530 + xOffset, 840);
+  positionCheckbox(checkbox45, 530 + xOffset, 865);
+  positionCheckbox(checkbox46, 530 + xOffset, 890);
+  positionCheckbox(checkbox47, 530 + xOffset, 915);
 }
 
 function setup(){
@@ -17,102 +71,62 @@ function setup(){
   canvas.background(255);
 
   checkbox1 = createCheckbox('U.S.A', false);
-  checkbox1.position(20, 740);
   checkbox2 = createCheckbox('Italy', false);
-  checkbox2.position(20, 765)
   checkbox3 = createCheckbox('U.A.E', false);
-  checkbox3.position(20, 790);
   checkbox4 = createCheckbox('Vietnam', false);
-  checkbox4.position(20, 815);
   checkbox5 = createCheckbox('Japan', false);
-  checkbox5.position(20, 840);
   checkbox6 = createCheckbox('South Africa', false);
-  checkbox6.position(20, 865);
   checkbox7 = createCheckbox('Israel', false);
-  checkbox7.position(20, 890);
   checkbox8 = createCheckbox('Singapore', false);
-  checkbox8.position(20, 915);
   checkbox9 = createCheckbox('Argentina', false);
-  checkbox9.position(20, 940);
   checkbox10 = createCheckbox('Taiwan', false);
-  checkbox10.position(20, 965);
   checkbox11 = createCheckbox('Nepal', false);
-  checkbox11.position(20, 990);
   checkbox12 = createCheckbox('Phillipines', false);
-  checkbox12.position(20, 1015);
   checkbox13 = createCheckbox('Nigeria', false);
-  checkbox13.position(20, 1040);
   checkbox14 = createCheckbox('Sweden', false);
-  checkbox14.position(20, 1065);
   checkbox15 = createCheckbox('Azerbaijan', false);
-  checkbox15.position(20, 1090);
   checkbox16 = createCheckbox('Norway', false);
-  checkbox16.position(20, 1115);
   checkbox17 = createCheckbox('South Korea', false);
-  checkbox17.position(20, 1140);
   checkbox18 = createCheckbox('Netherlands', false);
-  checkbox18.position(20, 1165);
   checkbox19 = createCheckbox('Malaysia', false);
-  checkbox19.position(20, 1190);
   checkbox20 = createCheckbox('China', false);
-  checkbox20.position(20, 1215);
   
   checkbox21 = createCheckbox('Spain', false);
-  checkbox21.position(160, 740);
   checkbox22 = createCheckbox('Saudi Arabia', false);
-  checkbox22.position(160, 765);
   checkbox23 = createCheckbox('India', false);
-  checkbox23.position(160, 790);
   checkbox24 = createCheckbox('Thailand', false);
-  checkbox24.position(160, 815);
   checkbox25 = createCheckbox('Portugal', false);
-  checkbox25.position(160, 840);
   checkbox26 = createCheckbox('Morocco', false);
-  checkbox26.position(160, 865);
   checkbox27 = createCheckbox('Ireland', false);
-  checkbox27.position(160, 890);
   checkbox28 = createCheckbox('Greece', false);
-  checkbox28.position(160, 915);
   checkbox29 = createCheckbox('Canada', false);
-  checkbox29.position(160, 940);
   checkbox30 = createCheckbox('Egypt', false);
-  checkbox30.position(160, 965);
   checkbox31 = createCheckbox('Australia', false);
-  checkbox31.position(160, 990);
   checkbox32 = createCheckbox('Hong Kong', false);
-  checkbox32.position(160, 1015);
   checkbox33 = createCheckbox('Poland', false);
-  checkbox33.position(160, 1040);
   checkbox34 = createCheckbox('Belgium', false);
-  checkbox34.position(160, 1065);
   checkbox35 = createCheckbox('Switzerland', false);
-  checkbox35.position(160, 1090);
   checkbox36 = createCheckbox('Turkey', false);
-  checkbox36.position(160, 1115);
   checkbox37 = createCheckbox('France', false);
-  checkbox37.position(160, 1140);
   checkbox38 = createCheckbox('Mexico', false);
-  checkbox38.position(160, 1165);
   checkbox39 = createCheckbox('Indonesia', false);
-  checkbox39.position(160, 1190);
   checkbox40 = createCheckbox('U.K', false);
-  checkbox40.position(160, 1215);
   
   checkbox41 = createCheckbox('Oil and Energy', false);
-  checkbox41.position(350, 740);
   checkbox42 = createCheckbox('Education', false);
-  checkbox42.position(350, 765);
   checkbox43 = createCheckbox('Technology and Software', false);
-  checkbox43.position(350, 790);
   checkbox44 = createCheckbox('Politics', false);
-  checkbox44.position(350, 815);
   checkbox45 = createCheckbox('Medicine', false);
-  checkbox45.position(350, 840);
   checkbox46 = createCheckbox('Finance', false);
-  checkbox46.position(350, 865);
   checkbox47 = createCheckbox('Non Work Related', false);
-  checkbox47.position(350, 890);
   
+  windowResized();
+}
+
+function positionCheckbox(checkbox, x, y) {
+  checkbox.style('position', 'absolute');
+  checkbox.style('left', x + 'px');
+  checkbox.style('top', y + 'px');
 }
 
 function draw() {
@@ -121,10 +135,8 @@ function draw() {
 }
 
 function generate() {
-  // Initialize the z-index to 1
   zIndex = 1;
 
-  // check which checkboxes are selected and call the corresponding sketch functions
   if (checkbox1.checked()) {
     drawSketch1(canvas, zIndex);
     zIndex++;
