@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pattern Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <style>
+      body {
+    font-family: "Montserrat", sans-serif;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+      p {
+        text-align: center;
+        margin: 20px;
+      }
+    
+    .heading-container {
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      h2 {
+        margin: 0 430px;
+        margin-left: 320px;
+        margin-top: 70px;
+        text-decoration: underline;
+      }
+    
+      .banner {
+        background-color: rgb(226,216,222);
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .banner-image {
+        width: 600px; 
+        height: auto; 
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .banner-text {
+        color: black;
+        margin-top: 50px;
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-bottom: 40px; 
+        font-size: 18px;
+      }
+    .another-paragraph {
+        margin-top: 0px;
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-bottom: 40px; 
+        font-size: 18px;
+        position: absolute;
+     }    
+    .header {
+      text-align: center;
+      margin-top: 500px;
+      font-size: 17px;
+    }
+     .image-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      margin-top: 100px;
+    }
+    .image-container img {
+      max-width: 80%;
+      height: auto;
+      margin: 20px;
+      display: block;
+    }
+    .image-container img:nth-child(odd) {
+      margin-right: 10px; 
+    }
+    .image-container img:nth-child(even) {
+      margin-left: 10px; 
+    }
+    .footnote {
+        background-color: rgb(226,216,222); 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        height: 300px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+      }
+
+      .logo {
+        width: 150px;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .email {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+    </style>
+  <body>
+    <div class="banner">
+      <img class="banner-image" src="my-image.png" alt="Banner Image" />
+      <span class="banner-text">For all the third culture kids around the world, this is for you. As those who tend to struggle to find a sense of cultural identity, this website allows you to create a sense of belonging within culture through design. These patterns that are tailored and unique to your life experience can be transformed into homeware, or an object you use in your daily life that you can showcase your new pattern. After creating your pattern you can see some examples of products people have chosen to print their pattern on below.</span>
+    </div>
+  
+    <div class="container">
+  <h1>STEP 1:</h1>
+    </div> 
+    <p class="another-paragraph">Select the countries you identify with and the optional choice of adding the reason you moved around (parents job or other reason) to create your unique pattern:</p>
+    <script src="sketch.js"></script>
+    <div class="heading-container">
+      <h2>COUNTRIES:</h2>
+      <h2>REASONS:</h2>
+    </div>
+    <canvas></canvas>
+    
+<div class="container">
+  <header class="header">
+    <h1>STEP 2:</h1>
+  </header>
+</div>
+    <p class="another-paragraph">Now you have your pattern, you can choose to make or print it on anything. Here are some examples of products people have decided to print their pattern on. Each product has their own personal reason/decision behind it that connect to the idea of home and identity to the person it was made for:</p>
+    
+    <div class="image-container">
+      <img src="bag.jpg" alt="Bag">
+      <img src="keychain.jpg" alt="Keychain">
+      <img src="candle.jpg" alt="Candle">
+      <img src="carpet.jpg" alt="Carpet">
+      <img src="scarf.jpg" alt="Scarf">
+      <img src="coasters.jpg" alt="Coasters">
+    </div>
+    
+    <img src="make-pattern.png" style="width: 800px; height: auto; display: block; margin-top: 100px; margin-right: auto; margin-left: auto;">
+    
+    <div class="footnote">
+      <img class="logo" src="logo-name.png" alt="Logo" />
+      <span class="email">Contact: kylarusel@gmail.com</span>
+    </div>
+    
+  </body>
+</html>
