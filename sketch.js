@@ -1,8 +1,19 @@
+
 let canvas;
+
+function centerCanvas() {
+  const x = (windowWidth - width) / 2;
+  const y = (windowHeight - height) / 2;
+  canvas.position(x, 1250);
+}
+
+function windowResized() {
+  centerCanvas();
+}
 
 function setup(){
   canvas = createCanvas(400, 400)
-  canvas.position(540, 740);
+  centerCanvas();
   canvas.background(255);
 
   checkbox1 = createCheckbox('U.S.A', false);
@@ -88,19 +99,20 @@ function setup(){
   checkbox40.position(160, 1215);
   
   checkbox41 = createCheckbox('Oil and Energy', false);
-  checkbox41.position(300, 740);
+  checkbox41.position(350, 740);
   checkbox42 = createCheckbox('Education', false);
-  checkbox42.position(300, 765);
+  checkbox42.position(350, 765);
   checkbox43 = createCheckbox('Technology and Software', false);
-  checkbox43.position(300, 790);
+  checkbox43.position(350, 790);
   checkbox44 = createCheckbox('Politics', false);
-  checkbox44.position(300, 815);
+  checkbox44.position(350, 815);
   checkbox45 = createCheckbox('Medicine', false);
-  checkbox45.position(300, 840);
+  checkbox45.position(350, 840);
   checkbox46 = createCheckbox('Finance', false);
-  checkbox46.position(300, 865);
+  checkbox46.position(350, 865);
   checkbox47 = createCheckbox('Non Work Related', false);
-  checkbox47.position(300, 890);
+  checkbox47.position(350, 890);
+  
 }
 
 function draw() {
