@@ -4,56 +4,56 @@ let canvas;
 function centerCanvas() {
   const x = (windowWidth - width) / 2;
   const y = (windowHeight - height) / 2
-  canvas.position(x, 1150);
+  canvas.position(x, 1200);
 }
 
 function windowResized() {
   centerCanvas();
   
-  var xOffset = (windowWidth - 800) / 2; // Adjust this value to control the centering
+  var xOffset = (windowWidth - 800) / 2;
   
-  positionCheckbox(checkbox1, 20 + xOffset, 765);
-  positionCheckbox(checkbox2, 20 + xOffset, 790);
-  positionCheckbox(checkbox3, 20 + xOffset, 815);
-  positionCheckbox(checkbox4, 20 + xOffset, 840);
-  positionCheckbox(checkbox5, 20 + xOffset, 865);
-  positionCheckbox(checkbox6, 20 + xOffset, 890);
-  positionCheckbox(checkbox7, 20 + xOffset, 915);
-  positionCheckbox(checkbox8, 20 + xOffset, 940);
-  positionCheckbox(checkbox9, 20 + xOffset, 965);
-  positionCheckbox(checkbox10, 20 + xOffset, 990);
-  positionCheckbox(checkbox11, 20 + xOffset, 1015);
-  positionCheckbox(checkbox12, 20 + xOffset, 1040);
-  positionCheckbox(checkbox13, 20 + xOffset, 1065);
-  positionCheckbox(checkbox14, 20 + xOffset, 1090);
+  positionCheckbox(checkbox1, 5 + xOffset, 765);
+  positionCheckbox(checkbox2, 5 + xOffset, 790);
+  positionCheckbox(checkbox3, 5 + xOffset, 815);
+  positionCheckbox(checkbox4, 5 + xOffset, 840);
+  positionCheckbox(checkbox5, 5 + xOffset, 865);
+  positionCheckbox(checkbox6, 5 + xOffset, 890);
+  positionCheckbox(checkbox7, 5 + xOffset, 915);
+  positionCheckbox(checkbox8, 5 + xOffset, 940);
+  positionCheckbox(checkbox9, 5 + xOffset, 965);
+  positionCheckbox(checkbox10, 5 + xOffset, 990);
+  positionCheckbox(checkbox11, 5 + xOffset, 1015);
+  positionCheckbox(checkbox12, 5 + xOffset, 1040);
+  positionCheckbox(checkbox13, 5 + xOffset, 1065);
+  positionCheckbox(checkbox14, 5 + xOffset, 1090);
   
-  positionCheckbox(checkbox15, 150 + xOffset, 765);
-  positionCheckbox(checkbox16, 150 + xOffset, 790);
-  positionCheckbox(checkbox17, 150 + xOffset, 815);
-  positionCheckbox(checkbox18, 150 + xOffset, 840);
-  positionCheckbox(checkbox19, 150 + xOffset, 865);
-  positionCheckbox(checkbox20, 150 + xOffset, 890); 
-  positionCheckbox(checkbox21, 150 + xOffset, 915);
-  positionCheckbox(checkbox22, 150 + xOffset, 940);
-  positionCheckbox(checkbox23, 150 + xOffset, 965);
-  positionCheckbox(checkbox24, 150 + xOffset, 990);
-  positionCheckbox(checkbox25, 150 + xOffset, 1015);
-  positionCheckbox(checkbox26, 150 + xOffset, 1040);
-  positionCheckbox(checkbox27, 150 + xOffset, 1065);
-  positionCheckbox(checkbox28, 150 + xOffset, 1090);
+  positionCheckbox(checkbox15, 145 + xOffset, 765);
+  positionCheckbox(checkbox16, 145 + xOffset, 790);
+  positionCheckbox(checkbox17, 145 + xOffset, 815);
+  positionCheckbox(checkbox18, 145 + xOffset, 840);
+  positionCheckbox(checkbox19, 145 + xOffset, 865);
+  positionCheckbox(checkbox20, 145 + xOffset, 890); 
+  positionCheckbox(checkbox21, 145 + xOffset, 915);
+  positionCheckbox(checkbox22, 145 + xOffset, 940);
+  positionCheckbox(checkbox23, 145 + xOffset, 965);
+  positionCheckbox(checkbox24, 145 + xOffset, 990);
+  positionCheckbox(checkbox25, 145 + xOffset, 1015);
+  positionCheckbox(checkbox26, 145 + xOffset, 1040);
+  positionCheckbox(checkbox27, 145 + xOffset, 1065);
+  positionCheckbox(checkbox28, 145 + xOffset, 1090);
   
-  positionCheckbox(checkbox29, 280 + xOffset, 765);
-  positionCheckbox(checkbox30, 280 + xOffset, 790);
-  positionCheckbox(checkbox31, 280 + xOffset, 815);
-  positionCheckbox(checkbox32, 280 + xOffset, 840);
-  positionCheckbox(checkbox33, 280 + xOffset, 865);
-  positionCheckbox(checkbox34, 280 + xOffset, 890);
-  positionCheckbox(checkbox35, 280 + xOffset, 915);
-  positionCheckbox(checkbox36, 280 + xOffset, 940);
-  positionCheckbox(checkbox37, 280 + xOffset, 965);
-  positionCheckbox(checkbox38, 280 + xOffset, 990);
-  positionCheckbox(checkbox39, 280 + xOffset, 1015);
-  positionCheckbox(checkbox40, 280 + xOffset, 1040);
+  positionCheckbox(checkbox29, 290 + xOffset, 765);
+  positionCheckbox(checkbox30, 290 + xOffset, 790);
+  positionCheckbox(checkbox31, 290 + xOffset, 815);
+  positionCheckbox(checkbox32, 290 + xOffset, 840);
+  positionCheckbox(checkbox33, 290 + xOffset, 865);
+  positionCheckbox(checkbox34, 290 + xOffset, 890);
+  positionCheckbox(checkbox35, 290 + xOffset, 915);
+  positionCheckbox(checkbox36, 290 + xOffset, 940);
+  positionCheckbox(checkbox37, 290 + xOffset, 965);
+  positionCheckbox(checkbox38, 290 + xOffset, 990);
+  positionCheckbox(checkbox39, 290 + xOffset, 1015);
+  positionCheckbox(checkbox40, 290 + xOffset, 1040);
   
   
   positionCheckbox(checkbox41, 530 + xOffset, 765);
